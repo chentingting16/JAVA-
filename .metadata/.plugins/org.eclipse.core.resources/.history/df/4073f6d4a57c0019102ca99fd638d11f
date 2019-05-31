@@ -1,0 +1,14 @@
+
+public class MainClass {
+
+	public static void main(String[] args) {
+	
+		PingfangBulider pb=new PingfangBulider(); 
+		Director pbdir=new Director();
+		pbdir.makehouse(pb);
+		System.out.println(pb.getHouse().getFloor());
+		System.out.println(pb.getHouse().getWall());
+		
+	}
+
+}

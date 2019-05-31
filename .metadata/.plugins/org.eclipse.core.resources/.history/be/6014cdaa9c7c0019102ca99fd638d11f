@@ -1,0 +1,16 @@
+
+public class NorthFactory implements Factory {
+
+	@Override
+	public Fruit createApple() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Fruit createBanana() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

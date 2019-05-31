@@ -1,0 +1,16 @@
+
+public class GongyuHouse implements Builder {
+
+	@Override
+	public void makefloor() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void makewall() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

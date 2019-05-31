@@ -1,0 +1,20 @@
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		//饿汉式 支持多线程
+		Person p1=Person.getPerson();
+		p1.setName("chentingting");
+		System.out.println(p1.getName());
+		Person p2=Person.getPerson();
+		p2.setName("ctt");
+		System.out.println(p2.getName());
+		System.out.println(p1.getName());
+
+		
+		//懒汉式
+		Person2 p1=Person2.getPerson2();
+		
+	}
+
+}

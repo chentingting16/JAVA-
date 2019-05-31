@@ -1,0 +1,10 @@
+
+public class AppleFactory implements Factory {
+
+	@Override
+	public void createfruit() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

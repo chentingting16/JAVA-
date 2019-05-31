@@ -1,0 +1,22 @@
+
+public class Person implements Cloneable{
+	private String name;
+	private String gender;
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	 
+	public Person Clone() throws CloneNotSupportedException {
+		return (Person) super.clone();
+	}
+}

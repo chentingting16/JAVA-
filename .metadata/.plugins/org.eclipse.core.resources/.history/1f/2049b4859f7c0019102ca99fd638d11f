@@ -1,0 +1,15 @@
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Person p1=Person.getPerson();
+		p1.setName("chentingting");
+		System.out.println(p1.getName());
+		Person p2=Person.getPerson();
+		p2.setName("ctt");
+		System.out.println(p2.getName());
+		System.out.println(p1.getName());
+
+	}
+
+}

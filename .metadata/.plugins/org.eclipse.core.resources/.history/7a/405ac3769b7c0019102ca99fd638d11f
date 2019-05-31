@@ -1,0 +1,10 @@
+
+public class BananaFactory implements Factory {
+
+	@Override
+	public Fruit createfruit() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
